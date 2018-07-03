@@ -4,7 +4,7 @@
 #
 Name     : catkin_pkg
 Version  : 0.2.10
-Release  : 18
+Release  : 19
 URL      : http://pypi.debian.net/catkin_pkg/catkin_pkg-0.2.10.tar.gz
 Source0  : http://pypi.debian.net/catkin_pkg/catkin_pkg-0.2.10.tar.gz
 Summary  : catkin package library
