@@ -1,5 +1,5 @@
 PKG_NAME := catkin_pkg
-URL = https://files.pythonhosted.org/packages/1c/f4/b138c3de11f7d09473b85e987e568005bfcf6447e772b50d8004cca113fc/catkin_pkg-0.4.10.tar.gz
+URL = https://files.pythonhosted.org/packages/03/b5/a6092bc2b697110885421074d28168e0092636489fcaf22994375fe5038b/catkin_pkg-0.4.11.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
