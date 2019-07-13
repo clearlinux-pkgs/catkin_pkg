@@ -4,7 +4,7 @@
 #
 Name     : catkin_pkg
 Version  : 0.4.12
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/5d/ca/b0bcd8b6443fae5735e0f1a7a9955650311eee54742aaba97f0e92d6e676/catkin_pkg-0.4.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5d/ca/b0bcd8b6443fae5735e0f1a7a9955650311eee54742aaba97f0e92d6e676/catkin_pkg-0.4.12.tar.gz
 Summary  : catkin package library
