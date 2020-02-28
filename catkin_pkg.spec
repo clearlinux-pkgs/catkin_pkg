@@ -4,7 +4,7 @@
 #
 Name     : catkin_pkg
 Version  : 0.4.16
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/81/90/9f882469fd1b9548fe960f70613dd469f537adb35e85798d96953e6922c4/catkin_pkg-0.4.16.tar.gz
 Source0  : https://files.pythonhosted.org/packages/81/90/9f882469fd1b9548fe960f70613dd469f537adb35e85798d96953e6922c4/catkin_pkg-0.4.16.tar.gz
 Summary  : catkin package library
@@ -22,9 +22,7 @@ BuildRequires : pyparsing
 BuildRequires : python-dateutil
 
 %description
-catkin_pkg
-----------
-Standalone Python library for the `Catkin package system <http://ros.org/wiki/catkin>`_.
+Library for retrieving information about catkin packages.
 
 %package bin
 Summary: bin components for the catkin_pkg package.
@@ -47,6 +45,7 @@ python components for the catkin_pkg package.
 Summary: python3 components for the catkin_pkg package.
 Group: Default
 Requires: python3-core
+Provides: pypi(catkin-pkg)
 
 %description python3
 python3 components for the catkin_pkg package.
@@ -61,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1580138329
+export SOURCE_DATE_EPOCH=1582904078
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
